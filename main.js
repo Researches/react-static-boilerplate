@@ -19,6 +19,9 @@ import { Provider } from 'react-redux';
 import store from './core/store';
 import router from './core/router';
 import history from './core/history';
+import AboutPage from './pages/about';
+import AudioPage from './pages/audio';
+import VideoPage from './pages/video';
 
 let routes = require('./routes.json'); // Loaded with utils/routes-loader.js
 const container = document.getElementById('container');

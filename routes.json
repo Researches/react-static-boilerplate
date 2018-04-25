@@ -17,6 +17,14 @@
     "page": "./pages/about"
   },
   {
+    "path": "/audio",
+    "page": "./pages/audio"
+  },
+  {
+    "path": "/video",
+    "page": "./pages/video"
+  },
+  {
     "path": "/tasks/:status(pending|completed)?",
     "page": "./pages/home"
   }
