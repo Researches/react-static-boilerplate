@@ -13,3 +13,9 @@
   max-width: 1000px;
   width: 100%;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 100px;
+  height: 100%;
+}
