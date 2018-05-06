@@ -19,3 +19,11 @@
   grid-template-rows: auto 100px;
   height: 100%;
 }
+
+.sidebar {
+  z-index: 5 !important;
+}
+
+.overlay {
+  z-index: 4 !important;
+}

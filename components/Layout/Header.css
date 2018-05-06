@@ -17,6 +17,12 @@
   text-decoration: none;
 }
 
+.contentHeaderMenuLink {
+  text-decoration: 'none';
+  color: 'white';
+  padding: 8px;
+}
+
 @media screen and (max-width: 1024px) {
 
   .header {
@@ -26,5 +32,4 @@
   .row {
     padding: 0 16px;
   }
-
 }

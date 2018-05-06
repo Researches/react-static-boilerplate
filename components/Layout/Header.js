@@ -24,12 +24,15 @@ class Header extends React.Component {
   }
 
   render() {
+    const { menuButtonClick } = this.props;
+    
     return (
       <header className={`mdl-layout__header ${s.header}`} ref={node => (this.root = node)}>
         <div className={`mdl-layout__header-row ${s.row}`}>
-          <Link className={`mdl-layout-title ${s.title}`} to="/">
-            React Static Boilerplate
-          </Link>
+        <button
+          onClick={(e) => menuButtonClick(e)} 
+          className={s.contentHeaderMenuLink}
+        >=</button>
           <div className="mdl-layout-spacer"></div>
           <Navigation />
         </div>

@@ -23,6 +23,7 @@ const styles = {
     height: '100%',
     backgroundColor: 'white',
   },
+ 
 };
 
 const SidebarContent = (props) => {
