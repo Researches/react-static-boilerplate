@@ -27,6 +27,7 @@ class Navigation extends React.Component {
         <Link className="mdl-navigation__link" to="/">Home</Link>
         <Link className="mdl-navigation__link" to="/audio">Audio</Link>
         <Link className="mdl-navigation__link" to="/video">Video</Link>
+        <Link className="mdl-navigation__link" to="/comments">Comments</Link>
         <Link className="mdl-navigation__link" to="/about">About</Link>
       </nav>
     );

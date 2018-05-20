@@ -25,6 +25,10 @@
     "page": "./pages/video"
   },
   {
+    "path": "/comments",
+    "page": "./pages/comments"
+  },
+  {
     "path": "/tasks/:status(pending|completed)?",
     "page": "./pages/home"
   }
