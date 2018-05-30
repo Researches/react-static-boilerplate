@@ -119,7 +119,7 @@ $ node run                      # Same as `npm start` or `node run start`
 
 You can also test your app in release (production) mode by running `node run start --release` or
 with HMR and React Hot Loader disabled by running `node run start --no-hmr`. The app should become
-available at [http://localhost:80/](http://localhost:80/).
+available at [http://localhost:3000/](http://localhost:3000/).
 
 
 ### How to Test

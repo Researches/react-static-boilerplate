@@ -1,6 +1,5 @@
 import React from 'react';
 import MaterialTitlePanel from './MaterialTitlePanel';
-import Link from '../Link';
 import PropTypes from 'prop-types';
 
 const styles = {
@@ -30,15 +29,20 @@ const styles = {
 const SidebarContent = (props) => {
   const style = props.style ? {...styles.sidebar, ...props.style} : styles.sidebar;
 
-  
+  const links = [];
+
+  for (let ind = 0; ind < 10; ind++) {
+    links.push(
+      <a key={ind} href="#" style={styles.sidebarLink}>Mock menu item {ind}</a>);
+  }
+
   return (
     <MaterialTitlePanel title="Menu" style={style}>
       <div style={styles.content}>
-        <Link className="mdl-navigation__link" to="/" style={styles.sidebarLink}>Home</Link>
-        <Link className="mdl-navigation__link" to="/audio" style={styles.sidebarLink}>Audio</Link>
-        <Link className="mdl-navigation__link" to="/video" style={styles.sidebarLink}>Video</Link>
-        <Link className="mdl-navigation__link" to="/comments" style={styles.sidebarLink}>Comments</Link>
-        <Link className="mdl-navigation__link" to="/about" style={styles.sidebarLink}>About</Link>
+        <a href="index.html" style={styles.sidebarLink}>Home</a>
+        <a href="responsive_example.html" style={styles.sidebarLink}>Responsive Example</a>
+        <div style={styles.divider} />
+        {links}
       </div>
     </MaterialTitlePanel>
   );

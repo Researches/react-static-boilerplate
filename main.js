@@ -22,7 +22,6 @@ import history from './core/history';
 import AboutPage from './pages/about';
 import AudioPage from './pages/audio';
 import VideoPage from './pages/video';
-import CommentsPage from './pages/comments';
 
 let routes = require('./routes.json'); // Loaded with utils/routes-loader.js
 const container = document.getElementById('container');

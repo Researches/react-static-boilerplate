@@ -13,9 +13,11 @@ class VideoPage extends React.Component {
     return (
       <Layout className={s.content}>
         <div dangerouslySetInnerHTML={{ __html: html }} />
+                  
       </Layout>
     );
   }
+
 }
 
 export default VideoPage;
