@@ -7,22 +7,31 @@ const styles = {
   sidebar: {
     width: 256,
     height: '100%',
+    overflow: 'hidden',
+    
+
+    
   },
   sidebarLink: {
     display: 'block',
     padding: '16px 0px',
-    color: '#757575',
+    color: '#fff',
     textDecoration: 'none',
+    
   },
   divider: {
     margin: '8px 0',
     height: 1,
     backgroundColor: '#757575',
+
   },
   content: {
     padding: '16px',
     height: '100%',
-    backgroundColor: 'white',
+    color: '#fff',
+    backgroundColor: '#4e4e4e6b',
+    
+    
   },
  
 };

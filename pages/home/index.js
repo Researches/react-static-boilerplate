@@ -13,33 +13,42 @@ import Layout from '../../components/Layout';
 import s from './styles.css';
 import { title, html } from './index.md';
 
+
 class HomePage extends React.Component {
+
+  
 
   static propTypes = {
     articles: PropTypes.array.isRequired,
   };
+  
 
   componentDidMount() {
     document.title = title;
   }
 
+  
   render() {
+    
     return (
       <Layout className={s.content}>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-        <h4>Articles</h4>
-        <ul>
-          {this.props.articles.map((article, i) =>
-            <li key={i}><a href={article.url}>{article.title}</a> by {article.author}</li>
-          )}
-        </ul>
-        <p>
-          <br /><br />
-        </p>
+        <p>&nbsp;</p>
+        <p><font color="#FFFFFF"><font face="Trebuchet MS, Helvetica, sans-serif"><font size="6">about tour</font></font></font></p>
+        <p><font color="#FFFFFF"><font face="Trebuchet MS, Helvetica, sans-serif"><font size="4">information about tour and the artist</font></font></font></p>
+        <p>&nbsp;</p>
+        <p><font color="#FFFFFF"><font face="Trebuchet MS, Helvetica, sans-serif"><font size="3">City</font></font></font><font color="#FFFFFF"><font face="Trebuchet MS, Helvetica, sans-serif"><font size="3">      Date</font></font></font></p>
       </Layout>
     );
   }
 
 }
 
+let imgUrl = 'images/back.jpg'
+    let styles = {
+        root: {
+            backgroundImage: 'url(' + imgUrl + ')',
+            backgroundSize: 'cover',
+            overflow: 'hidden',
+        }
+      }
 export default HomePage;

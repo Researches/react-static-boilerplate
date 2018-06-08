@@ -32,7 +32,7 @@ class Header extends React.Component {
         <button
           onClick={(e) => menuButtonClick(e)} 
           className={s.contentHeaderMenuLink}
-        >=</button>
+        />
           <div className="mdl-layout-spacer"></div>
           <Navigation />
         </div>

@@ -9,7 +9,8 @@
 */
 
 .row {
-  padding: 40px;
+  padding: 20px;
+  background-color: rgb(37, 37, 37);
 }
 
 .title {
@@ -18,10 +19,16 @@
 }
 
 .contentHeaderMenuLink {
-  text-decoration: 'none';
-  color: 'white';
+  background-image: url('./icon.svg');
+  background-repeat: no-repeat;
   padding: 8px;
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  color: white;
 }
+
 
 @media screen and (max-width: 1024px) {
 
