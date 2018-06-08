@@ -1,5 +1,6 @@
 ---
 title: Drake tour
+color: white
 ---
 
 ## tour name
